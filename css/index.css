@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+header form a {
+  text-decoration: none;
+  margin: 20px;
+  color: #1c00b8;
+  font-size: 30px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+}
+
+header span {
+  font-size: 30px;
+  opacity: 30%;
+}
+
+body {
+  background: linear-gradient(90deg, #90abd4, #ec7fa2, #778cbb);
+
+  font-family: "Amatic SC", cursive;
+}
+
+.menu {
+  font-size: 15px;
+  width: 20%;
+  margin-top: 200px;
+}
+
+.side-bar {
+  min-width: 200px;
+  max-width: 300px;
+  margin-top: 50px;
+  background-color: #ec7fa2;
+}
+
+.my-photo img {
+  width: 200px;
+  height: 200px;
+}
+
+.my-photo {
+  padding-top: 200px;
+  padding-right: 200px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  opacity: 30%;
+  font-size: 30px;
+}
+
+.info-me p {
+  height: 30px;
+  font-size: 25px;
+  min-width: 300px;
+  max-width: 1000px;
+}
